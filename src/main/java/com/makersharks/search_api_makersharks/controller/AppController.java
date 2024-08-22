@@ -121,12 +121,6 @@ public class AppController {
 	public String login() {
 		return "login";
 		}
-	
-	@GetMapping({"/home"})
-	public String home() {
-		return "home";
-		}
-	
 
 	
 	@PostMapping("/login")
